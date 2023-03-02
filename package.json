@@ -1,0 +1,99 @@
+{
+  "name": "test-ui-lib",
+  "version": "0.0.1",
+  "description": "test-ui-lib",
+  "source": "src/index.ts",
+  "main": "index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/types.d.ts",
+  "engines": {
+    "node": "16 - 18"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "files": [
+    "/dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Nels0nMuntz/lib-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nels0nMuntz/lib-test/issues"
+  },
+  "homepage": "https://github.com/Nels0nMuntz/lib-test#readme",
+  "dependencies": {
+    "publish-to-git": "^1.1.9",
+    "typescript": "^4.9.5"
+  },
+  "peerDependencies": {
+    "@szhsin/react-menu": "^3.5.1",
+    "@types/react": "17.0.2 - 19",
+    "bootstrap": "^5.2.3",
+    "next": "^12.0.1",
+    "react": "17.0.2 - 19",
+    "react-bootstrap": "^2.7.2",
+    "react-dom": "17.0.2 - 19",
+    "react-table": "^7.8.0",
+    "react-table-sticky": "^1.1.3",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.21.0",
+    "@parcel/packager-ts": "^2.8.3",
+    "@parcel/transformer-typescript-types": "^2.8.3",
+    "@rollup/plugin-commonjs": "^24.0.1",
+    "@rollup/plugin-image": "^3.0.2",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "@rollup/plugin-terser": "^0.4.0",
+    "@rollup/plugin-typescript": "^11.0.0",
+    "@storybook/addon-actions": "^6.5.16",
+    "@storybook/addon-essentials": "^6.5.16",
+    "@storybook/addon-interactions": "^6.5.16",
+    "@storybook/addon-links": "^6.5.16",
+    "@storybook/builder-webpack4": "^6.5.16",
+    "@storybook/manager-webpack4": "^6.5.16",
+    "@storybook/preset-scss": "^1.0.3",
+    "@storybook/react": "^6.5.16",
+    "@storybook/testing-library": "^0.0.13",
+    "@types/react": "^17.0.2",
+    "@types/react-table": "^7.7.14",
+    "@types/uuid": "^9.0.1",
+    "@typescript-eslint/eslint-plugin": "^5.53.0",
+    "@typescript-eslint/parser": "^5.53.0",
+    "babel-loader": "^8.3.0",
+    "css-loader": "^5.2.7",
+    "eslint": "^8.34.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "postcss": "^8.4.21",
+    "prettier": "^2.8.4",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "rollup": "^3.17.2",
+    "rollup-plugin-copy": "^3.4.0",
+    "rollup-plugin-delete": "^2.0.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.2",
+    "sass-loader": "^10.1.1",
+    "style-loader": "^2.0.0",
+    "tslib": "^2.5.0",
+    "typescript-plugin-css-modules": "^4.2.2",    
+    "@szhsin/react-menu": "^3.5.1",
+    "bootstrap": "^5.2.3",
+    "next": "^12.0.1",
+    "react-bootstrap": "^2.7.2",
+    "react-table": "^7.8.0",
+    "react-table-sticky": "^1.1.3",
+    "uuid": "^9.0.0"
+  }
+}

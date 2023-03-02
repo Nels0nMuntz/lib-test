@@ -1,0 +1,70 @@
+// Brand Colors
+$brand-color-lime: #c8ff54;
+$brand-color-black: #0a1b16;
+
+// Shades of lime
+$lime-shade-500: #befc29;
+$lime-shade-600: #b5ea22;
+$lime-shade-700: #a7d30f;
+$lime-shade-800: #99bb00;
+$lime-shade-900: #859200;
+
+// Tints of lime
+$lime-tint-300: #d0fe74;
+$lime-tint-200: #deff9e;
+$lime-tint-100: #ecffc6;
+$lime-tint-50: #f7ffe8;
+
+// Secondary Colors
+$secondary-color-yellow: #ffeb47;
+$secondary-color-green: #183e34;
+$secondary-color-blue-100: #d1dde8;
+$secondary-color-blue-60: #e9eef3;
+$secondary-color-blue-50: #e2f4ff;
+$secondary-color-blue-40: #f2f6f9;
+
+// Semantic Colors
+$semantic-color-success: #175f3c;
+$semantic-color-warning: #bb4644;
+$semantic-color-error: #ad0b12;
+$semantic-color-info: #1f70e2;
+$semantic-color-disabled-bg: rgba(0, 0, 0, 0.6);
+
+// Text Colors
+$text-color-primary: #26252f;
+$text-color-secondary: #464849;
+$text-color-disabled: rgba(0, 0, 0, 0.25);
+
+// General Colors
+$general-color-white: #ffffff;
+$general-color-black: #000000;
+
+:export {
+  brandColorLime: $brand-color-lime;
+  brandColorBlack: $brand-color-black;
+  limeShade500: $lime-shade-500;
+  limeShade600: $lime-shade-600;
+  limeShade700: $lime-shade-700;
+  limeShade800: $lime-shade-800;
+  limeShade900: $lime-shade-900;
+  limeTint300: $lime-tint-300;
+  limeTint200: $lime-tint-200;
+  limeTint100: $lime-tint-100;
+  limeTint50: $lime-tint-50;
+  secondaryColorYellow: $secondary-color-yellow;
+  secondaryColorGreen: $secondary-color-green;
+  secondaryColorBlue100: $secondary-color-blue-100;
+  secondaryColorBlue60: $secondary-color-blue-60;
+  secondaryColorBlue50: $secondary-color-blue-50;
+  secondaryColorBlue40: $secondary-color-blue-40;
+  semanticColorSuccess: $semantic-color-success;
+  semanticColorWarning: $semantic-color-warning;
+  semanticColorError: $semantic-color-error;
+  semanticColorInfo: $semantic-color-info;
+  semanticColorDisabledBg: $semantic-color-disabled-bg;
+  textColorPrimary: $text-color-primary;
+  textColorSecondary: $text-color-secondary;
+  textColorDisabled: $text-color-disabled;
+  generalColorWhite: $general-color-white;
+  generalColorBlack: $general-color-black;
+}

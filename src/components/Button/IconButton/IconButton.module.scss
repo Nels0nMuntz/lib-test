@@ -1,0 +1,12 @@
+@import "src/styles/colors.module.scss";
+
+.iconButton {
+  background: transparent;
+  border: 1px solid $brand-color-black;
+  border-radius: 3px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}

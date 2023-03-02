@@ -1,0 +1,10 @@
+.header {
+  align-items: center;
+  justify-content: space-between;
+
+  button {
+    padding: 12px;
+    flex-shrink: 0;
+    border: none;
+  }
+}

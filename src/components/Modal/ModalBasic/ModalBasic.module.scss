@@ -1,0 +1,13 @@
+@import "../../../styles/colors.module.scss";
+
+.modalContent {
+  border: 1px solid $secondary-color-blue-100;
+}
+.modalBody {
+  background: white;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 16px 20px;
+  border-radius: 13px;
+}

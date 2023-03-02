@@ -1,0 +1,42 @@
+@import "../../styles/colors.module.scss";
+
+.tableHeader {
+  font-family: Outfit, serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #5c626a;
+  padding: 0 16px 20px;
+}
+.tableHeaderStyle {
+  box-shadow: inset 0px -1px 0px #f2f2f2;
+}
+.table {
+  width: 100%;
+  margin-top: 16px;
+}
+.tableValue {
+  font-family: Outfit, serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #26252f;
+  padding: 0 20px;
+  padding-top: 16px;
+}
+.emptyText {
+  font-family: Outfit, serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #26252f;
+  padding-top: 8px;
+  margin-left: 16px;
+}
+
+.selected {
+  background-color: $secondary-color-blue-100;
+}
